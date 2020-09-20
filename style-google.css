@@ -1,0 +1,174 @@
+
+/*
+ --black-color: #252525;
+  --grey-color: #757575;
+  --grey-color2: #5f6368;
+  --blue-color: #4285f4;
+  --blue-button-color: #3b78e7;
+  --blue-border-color: #3367d6;
+  --white-color: #fff;
+  --white-color2: #f2f2f2;
+  --line-color: #e1e1e1;
+  --border-color: #dfe1e5;
+  */
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.main-content{
+	width: 650px;
+	margin: auto;
+}
+/*common css*/
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+/* header start*/
+
+
+.top-left-header{
+	
+}
+.my-svg{
+	font-weight: normal
+		
+}
+
+.my-svg-right{
+	font-weight: normal;
+	font-size: 14px;
+	color: red;
+}
+.my-menu{
+	
+}
+.my-menu-items{
+	margin-left: -20px;
+}
+.my-menu-items li{
+	list-style: none;
+	padding: 0px 7px;
+}
+.my-menu-items li a{
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 7px;
+  color:  #5f6368;
+  border-bottom: 2px solid transparent;
+  
+}
+.my-menu-items li a:hover{
+	color:#4285f4;
+	border-bottom-color: #4285f4;
+}
+.users-img{
+	width: 27px;
+	height: 27px;
+	
+}
+.users-img img{
+	border-radius:50%;
+	border: 1px solid black;
+}
+
+/*search start*/
+
+.search-box{
+	position: relative;
+	
+}
+.my-search{
+	border-radius: 20px;
+	border: 1px solid #dfe1e5;
+	box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+	
+}
+.my-search-icon{
+	position: absolute;
+	left: 15px;
+	top: 11px;
+	font-size: 18px;
+	color: #757575;
+}
+.my-microphone-icon{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	font-size: 20px;
+	color: #757575;
+}
+
+
+/*feather items*/
+
+.main-feather-item{
+display: flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:center;
+	padding: 0px 5px;
+	
+
+}
+.feather-item{
+	
+	display:flex;
+	flex-direction:column;
+	justify-content: evenly;
+	align-items:center;
+	padding: 0px 10px;
+	
+	
+}
+.feather-item img{
+	width: 25px;
+	height: 25px;
+}
+.feather-item .text{
+	font-size: 14px;
+}
+
+/* language section */
+
+
+.google-language{
+	text-align: center;
+}
+.google-language a{
+	padding: 0px 8px;
+}
+/* footer section*/
+
+.footer-section{
+	background-color: #f2f2f2;
+  
+}
+.country-container{
+	border-bottom: 1px solid #e4e4e4;
+	
+}
+
+.footer-option{
+	width:80%;
+	margin: auto;
+	 display: flex;
+	 flex-wrap:wrap;
+	 justify-content: center;
+	 align-items:center;
+}
+.footer-option a{
+	padding: 8px 15px;
+	color: #757575;
+	
+}
+.author{
+	color: #5f6368;
+}
